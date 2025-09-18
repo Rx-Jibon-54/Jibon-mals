@@ -17,8 +17,8 @@ module = {
       const video = "https://files.catbox.moe/kug4fb.mp4";
 
       return message.reply({
-        body: " JIBON ER POLA💫TOKAI ALIF💋🎬",
-        attachment: await global.utils.getStreamFromURL(video)
+        body: "JIBON ER POLA💫TOKAI ALIF💋🎬",
+         attachmen: await global.utils.getStreamFromURL(video)
       });
     }
   }
